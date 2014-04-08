@@ -27,5 +27,9 @@
   "homepage": "https://github.com/andreineculau/node-yang",
   "dependencies": {
     "api-pegjs": "^0.2.0"
+  },
+  "bin": {
+    "yang-lint": "bin/yang-lint",
+    "yang-to-json": "bin/yang-to-json"
   }
 }
