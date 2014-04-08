@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+YANG="${1}"
+cat "${1}" | api-pegjs-parse core/ietf/rfc6020-yang-generic unknown_statement2
